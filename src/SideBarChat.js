@@ -2,7 +2,7 @@ import { Avatar } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import './SideBarChat.css';
 
-function SideBarChat(addNewChat) {
+function SideBarChat({addNewChat}) {
   const [seed, setSeed] = useState("");
   useEffect(() => {
     setSeed(Math.floor(Math.random() * 5000));
@@ -23,8 +23,8 @@ function SideBarChat(addNewChat) {
       </div>
     </div>
   ) : (
-    <div onClick={createChat} className="sidebarChat">
-      <h2>Add new chat</h2>
+    <div onClick={createChat} className="sidebar__chat">
+      <h2>Add New chat</h2>
     </div>
   );
 }

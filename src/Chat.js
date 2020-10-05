@@ -17,6 +17,7 @@ function Chat() {
   const sendMessage = (e) => {
     e.preventDefault();
     console.log(input);
+    setInput('');
   }
   return (
     <div className="chat">
@@ -46,7 +47,7 @@ function Chat() {
             <span className="chat__timestamp">21:11</span>
           </div>
         </div>
-        <div className={`chat__message ${true && "chat_receiver"}`}>
+        <div className={`chat__message ${true && "chat__receiver"}`}>
           <span className="chat__name">Girish</span>
           <div className="chat__messageBody">
             <span className="message">Hi Namita</span>
