@@ -1,5 +1,6 @@
 import { Avatar } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
+import './SideBarChat.css';
 
 function SideBarChat(addNewChat) {
   const [seed, setSeed] = useState("");
