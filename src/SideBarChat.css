@@ -12,3 +12,13 @@
 .sidebarChat__info > h2 {
     margin-left: 15px;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray; 
+}

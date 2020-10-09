@@ -26,3 +26,11 @@
   margin-top: 50px;
   color: #0a8d48 !important;
 }
+
+@media screen and (max-width: 767px) {
+  .app__body {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -26,3 +26,11 @@
   background-color: #0a8d48 !important;
   color: white;
 }
+
+@media screen and (max-width: 767px) {
+  .login {
+    height: 100%;
+    width: 100%;
+    place-items: initial;
+  }
+}

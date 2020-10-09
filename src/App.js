@@ -23,7 +23,7 @@ function App() {
               <Route path="/">
                 <div className="app__welcome">
                   <h1>Welcome to Whatsapp Rooms</h1>
-                  <h3 className="app__welcomeSubText">Please click on any of the rooms on the left</h3>
+                  <h3 className="app__welcomeSubText">Please add a room or click on any of the rooms on the left</h3>
                   </div>
               </Route>
             </Switch>

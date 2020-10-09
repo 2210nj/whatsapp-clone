@@ -62,7 +62,13 @@
   border-bottom: 1px solid #f6f6f6;
 }
 
-a{
+a {
   text-decoration: none !important;
   color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    flex: 1;
+  }
 }
