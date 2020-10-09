@@ -21,7 +21,10 @@ function App() {
                 <Chat />
               </Route>
               <Route path="/">
-                <h1>welcome</h1>
+                <div className="app__welcome">
+                  <h1>Welcome to Whatsapp Rooms</h1>
+                  <h3 className="app__welcomeSubText">Please click on any of the rooms on the left</h3>
+                  </div>
               </Route>
             </Switch>
           </Router>
